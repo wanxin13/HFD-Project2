@@ -1,0 +1,164 @@
+\documentclass{report}
+\include{preamble}
+\usepackage{float}
+
+\title{\LectureTitle: Project 2}
+
+\begin{document}
+\maketitle
+\newpage
+
+\section{ Excercise 1}
+
+\subsection{A}
+My last two digits of unique number is 78, so I use 5-min and 1-min data of HD and VZ and 5-second data of TSLA-2016.
+
+\subsection{B}
+$ N = 78, T = 2769$.  N and T are same for both of my stocks.
+
+\subsection{C}
+
+$\bullet$ The stock market starts at 9:30am and closes at 4pm. 
+
+$\bullet$ Actually, I expected the N should be 79.
+
+$\bullet$ Yes. It is different from the actual $N=78$ since the opening price, which is the price at 9:30am, are not included in the data. 
+
+$\bullet$ Maybe because there are no opening prices for some stocks or the opening prices cannot be used for some reasons.
+
+\subsection{E}
+Stock prices of HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//1E_HD_prices}
+\end{figure}
+Geometric returns of HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//1E_HD_returns}
+\end{figure}
+From the plots of HD, I think there are outliers during the late 2008, in the mid of 2010 and in the mid of 2015.
+
+Stock prices of VZ.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//1E_VZ_prices}
+\end{figure}
+Geometric returns of HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//1E_VZ_returns}
+\end{figure}
+From the plots of VZ, I think there are outliers during the late 2008, in the mid of 2010, in the begining of 2011, in the mid of 2015 and at the end of 2017.
+
+\subsection{F}
+
+$\bullet$ A stock split is that a company divides its existing shares into multiple shares. 
+
+$\bullet$ It occurs because the price of the stock is too high for small investors and company need greater liquidity. 
+
+$\bullet$ It often happens when the stock price is high. 
+
+$\bullet$ If the price of the stock suddenly droped a lot, I wil check the news to see if stock split has happened at that time. 
+
+$\bullet$ If there was a stock split, I would adjust the price before the split by multiplying the split infered retio.
+
+$\bullet$ Home Depot and Verizon Communications both didn't split their stocks between 2007 and 2017. Google Finance and Yahoo Finance corrected for stock splits. 
+
+$\bullet$ Stock splits do not affect within day returns.
+
+\section{ Exercise 2}
+\subsection{A}
+Annualized RV of HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2A_HD}
+\end{figure}
+The RV or we can say the volatility of HD stock is around 20 percent at the most time. However, at the beging of 2008, during the late 2008, in the mid of 2010, 2011 and 2015 the RV were especially high. It reached the highest point during the late 2008 and it peaked at nearly 160 percentage and I think it is because of the financial crisis during that time. For 2015's peak, I think China stock market had a crisis starting in June, 2015 but I'm not sure it is the cause of this high volatility.
+
+Annulized RV of VZ.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2A_VZ}
+\end{figure}
+The RV or we can say the volatility of VZ stock is around 20 percent at the most time. However, at the begining of 2008, during the late 2008, in the mid of 2010, 2011 and 2015 and at the end of 2017, the RV were especially high. It also reached the highest point during the late 2008 and it peaked at nearly 160 percentage and it may also be affected by financial crisis at that time. For 2015's peak, I think China stock market had a crisis starting in June, 2015 but I'm not sure it is the cause of this high volatility.
+
+
+\subsection{B}
+Annualized BV of HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2B_HD}
+\end{figure}
+The BV of HD stock is around 20 percent at the most time. However, at the beging of 2008, during the late 2008, in the mid of 2010, 2011 and 2015 the RV were especially high. It reached the highest point during the late 2008 and it peaked at nearly 160 percentage and I think it is because of the financial crisis during that time. For 2015's peak, I think China stock market had a crisis starting in June, 2015 but I'm not sure it is the cause of this high BV.
+
+Annualized BV of VZ.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2B_VZ}
+\end{figure}
+The BV of VZ stock is around 20 percent at the most time. However, at the begining of 2008, during the late 2008, in the mid of 2010, 2011 and 2015 and at the end of 2017, the RV were especially high. It also reached the highest point during the late 2008 and it peaked at nearly 150 percentage and it may also be affected by financial crisis at that time. For 2015's peak, I think China stock market had a crisis starting in June, 2015 but I'm not sure it is the cause of this high BV.
+
+\subsection{C}
+RV and BV comparison of HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2C_HD}
+\end{figure}
+From the comparison plot of HD, we can tell that the Bipower Variance is lower than Realized Variance at most time. On some particular point, BV is higher than RV and it may because of the noise or sampling error. Both of them were especially high at the beging of 2008, during the late 2008, in the mid of 2010, 2011 and 2015.
+
+RV and BV comparison of VZ.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2C_VZ}
+\end{figure}
+From the comparison plot of VZ, we can tell that the Bipower Variance is lower than Realized Variance at most time. On some particular point, BV is higher than RV and it may because of the noise or sampling error. Both of them were especially high  at the begining of 2008, during the late 2008, in the mid of 2010, 2011 and 2015 and at the end of 2017.
+
+\subsection{D}
+Relative contribution of jumps for HD.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2D_HD}
+\end{figure}
+Relative contribution of jumps for VZ.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//2D_VZ}
+\end{figure}
+
+For Home depot stock, 8.7383\% of total RV is accounted for by the jump variation on average. For Verizon Communication, 9.1055\% of total RV is accounted for by the jump variation on average. The value found by Huang and Tauchen in 2005 was about 7\%. The numbers are different but we may say the value is close to 7\%.
+
+\section{ Excercise 3}
+
+\subsection{A}
+
+$\bullet$ I think the realized variance is a good (sometimes error-free) volatility estimator based on some assumptions  such as log asset prices evolove as diffusions. 
+
+$\bullet$ Volatility signature plot is a plot of average realised volatility against sampling frequency.
+
+$\bullet$ The plot can help us find appropriate sampling frequency and identify different market microstructures.
+
+\subsection{ B}
+$ N = 4621, T = 252$.
+
+\subsection{C}
+Annualized volatility values against sampling frequency in minutes.
+\begin{figure}[H]
+        \centering 
+         \includegraphics[width=0.7\textwidth]{figures//3C_TSLA}
+\end{figure}
+
+\subsection{D}
+No. I think it is because market microstructure effects emerge when the sampling frequency becomes really high.
+
+\subsection{E}
+Yes. When sampling intervals corresponding to 3 to 8 minutes and J is between 36 and 96, we can find from the plot that volatility signature function is reasonably flat and market microstructure noise is not very important. 
+
+
+
+
+
+
+
+
+\end{document}
